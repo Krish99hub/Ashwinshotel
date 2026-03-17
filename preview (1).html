@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Restaurant</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+header {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #f39c12;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  font-size: 40px;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.menu {
+  background: #222;
+}
+
+.menu h2 {
+  color: #f39c12;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  background: #333;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.item h3 {
+  margin: 0;
+}
+
+.price {
+  color: #f39c12;
+  margin-top: 10px;
+}
+
+.about {
+  background: #111;
+}
+
+.contact {
+  background: #222;
+}
+
+footer {
+  background: #000;
+  padding: 15px;
+  text-align: center;
+  color: #aaa;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f39c12;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+  <h1>🍽️ My Restaurant</h1>
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Delicious Food, Delivered Fresh</h2>
+</div>
+
+<section id="menu" class="menu">
+  <h2>Our Menu</h2>
+  <div class="menu-items">
+
+    <div class="item">
+      <h3>Fried Rice</h3>
+      <p class="price">Rs. 850</p>
+    </div>
+
+    <div class="item">
+      <h3>Kottu Roti</h3>
+      <p class="price">Rs. 900</p>
+    </div>
+
+    <div class="item">
+      <h3>Chicken Curry</h3>
+      <p class="price">Rs. 1200</p>
+    </div>
+
+    <div class="item">
+      <h3>Biryani</h3>
+      <p class="price">Rs. 1300</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>We serve fresh, hot, and delicious meals every day in Pettah, Colombo.</p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>📞 077-1234567</p>
+  <p>📍 Pettah, Colombo</p>
+
+  <a class="btn" href="https://wa.me/94771234567">Order on WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 My Restaurant | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
